@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Riverfront IT</title>
+		<meta charset="utf-8" />
+     <base target="_top">
+    <?!=include('css'); ?>
+    <?!=include('noscriptcss'); ?>
+    <?!=include('jss'); ?>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>-->
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<?var url = getScriptUrl();?><a href='<?=url?>?page=my1' class="logo"><strong>Preparing</strong> <span>For new hire's</span></a>
+						<!--<nav>
+							<a href="#menu">Menu</a>
+						</nav>-->
+					</header>
+
+				<!-- Menu 
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="1.index.html">Home</a></li>
+						<li><a href="2.Printing.html">Printing</a></li>
+						<li><a href="2.Password_resets.html">Passwords</a></li>
+						<li><a href="2.Tbar.html">T-Bar</a></li>
+						<li><a href="2.Desk.setup.html">Desk Setups</a></li>
+						<li><a href="2.Thunderbolt.html">Thunderbolt</a></li>
+
+					</ul>
+
+				</nav>-->
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+				<section id="banner" class="style2">
+					<div class="inner">
+						<span class="image">
+							<img src="https://drive.google.com/uc?export=view&id=1TF2QGZ6s55F9p01KsKC7R0w_OkS515YZ" alt="" />
+						</span>
+						<header class="major">
+							<h1>Have a new hire starting?</h1>
+						</header>
+						<div class="major">
+							<h5>Then your in the right place, lets go over a few things!</h5>
+
+						</div>
+					</div>
+				</section>
+
+
+				<!-- Main -->
+					<div id="main" class="alt">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<h3>Quick checklist</h3>
+									<p>1. Are the needed tickets submitted and approved?</p>
+									<p>2. Make sure your new hire joins the correct meetings.</p>
+									<p style="margin-left: 40px">-9am for the Hr meeting.</p>
+									<p style="margin-left: 40px">-10am for the IT portion</p>
+									<p style="margin-left: 40px">-This will be in room 120 on Mondays, and we usually wrap up at 11:00am.</p>
+									
+
+									<p>3. Is your new Hire's desk prepared for them?</p>
+									<p>4. Make sure they have all the needed information and links to hr </p>
+
+										<!--Checklist-->
+									<h3>Manager: New Hire Checklist</h3>        
+									<h5>Use this checklist to streamline the onboarding process.	
+									Also to help prepare for your new hire's arrival</h5>
+									<br />
+									<p>1. Submit tech requests to the T-Bar: The HOP > Life at DISH > Tools & Resources > T-Bar Online > Employee Onboarding.</p>
+									<p>2. Each person should have the necessities: phone, access to necessary software, etc.</p>
+									<p>3. Request desk space by reaching out to the location office manager or other applicable contact.</p>
+									<p>4. Make sure their desk is clean. You can contact Facilities through the hop if its needing a deep clean, or missing items like a trash can or filing cabinet.</p>
+									
+									<p>5. Make sure they know when to arrive on their first full day; show them where their desk is.</p>
+									<p>6. Once they've been assigned an email address, add new hire to distribution lists for team, pertinent
+									emails, etc.</p>
+									<br />
+											<!--Orientation day-->
+									<span class="image main"><img src="Prepare/banner2.jpg" alt="" /></span>
+									<h3>DURING YOUR NEW HIRE'S ORIENTATION DAY</h3>
+									
+									<p>1. Check their tech set-up: make sure they have a monitor and docking station as appropriate; ensure their phone is programmed and ready.</p>
+									<p>2. Provide basic office supplies (notebook, pens, highlighters, paperclips, stapler, etc.)</p>
+									<p>3. Give them a tour of the building.
+									<p>4. Plan to take them to lunch (cafe is fine)-you’ll receive a calendar invite letting you know when and where to pick them up. If you can't take them to lunch, ensure they know where to go on their first day.</p>
+									<br />
+
+
+											<!--First full day-->
+									<span class="image main"><img src="https://drive.google.com/uc?export=view&id=1NFa2XDkVFRTzi5Lss2ZFpF4IYWGRdl6f" alt="" /></span>
+									<h2>DURING YOUR NEW HIRE'S FIRST FULL DAY</h2>
+									<br />
+									<h3>Getting Settled:</h3>
+									<p>1. Meet them at their desk on arrival; if you cannot meet them on arrival, have an email in their inbox detailing anything you'd like them to get started on (e.g. send them a rough outline of the meetings you’d like them to join and anything they can start to research).</p>
+									<p>2. Walk them around and introduce them to other members of the team/department.</p>
+									<p>3. Show them where office supplies are located.
+									<p>4. Make sure their laptop/docking station set-up works. If not working reach out to T-Bar
+									<p>5. Make sure they are set up for Follow-You Printing - have them print a test page.
+										<br />
+										
+										<!--Onboarding-->
+										<span class="image main"><img src="https://drive.google.com/uc?export=view&id=1yMuUvdmUWw8ieRN4n3VydJCcrrpY-Hrc" alt="" /></span>
+										<h3>Onboarding:</h3>
+									<p>1. Make sure they know where to find information on The HOP, including payroll, benefits, the conference room map, etc.</p>
+									<p>2. Discuss any communication preferences (e.g. when you prefer email, Google Chat, or a call).</p>
+									<p>3. Make sure they've been invited to any relevant meetings (via Google Calendar).</p>
+									<p>4. Set a reminder for yourself about the benefit enrollment deadlines and make sure to talk to them prior to the close date to ensure they've explored options and made selections.</p>
+									<p>5. Let them know about any upcoming priority projects, etc.</p>
+
+									
+								</div>
+							</section>
+
+					</div>
+
+					<!--Footer-->
+					<footer id="footer">
+						<div class="inner">
+		
+							<ul class="copyright">
+								<li>&copy; Designed by:</li><li>Steven Pooley - steven.pooley@dish.com</li>
+                <li>&copy; Created by:</li><li>Jonte "Jon" Wilson - jonte.wilson@dish.com</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+
+			<script>
+				var timer = setTimeout(function() {
+					window.location='1.index.html'
+				}, 180000);
+			</script>
+	</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
