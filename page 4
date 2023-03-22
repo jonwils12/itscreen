@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Riverfront IT</title>
+		<meta charset="utf-8" />
+    <base target="_top">
+    <?!=include('css'); ?>
+    <?!=include('noscriptcss'); ?>
+    <?!=include('jss'); ?>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>-->
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+				<header id="header">
+					<?var url = getScriptUrl();?><a href='<?=url?>?page=my1' class="logo"><strong>Desk</strong> <span>Setups</span></a>
+				<!--	<nav>
+						<a href="#menu">Menu</a>
+					</nav>-->
+				</header>
+				<!-- Menu -->
+				<!--<nav id="menu">
+					<ul class="links">
+						<li><a href="1.index.html">Home</a></li>
+						<li><a href="2.Printing.html">Printing</a></li>
+						<li><a href="2.Password_resets.html">Passwords</a></li>
+						<li><a href="2.Tbar.html">T-Bar</a></li>
+						<li><a href="2.Desk.setup.html">Desk Setups</a></li>
+						<li><a href="2.Thunderbolt.html">Thunderbolt</a></li>
+
+					</ul>
+
+				</nav>-->
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="https://drive.google.com/uc?export=view&id=1MblIglJjlbHag7GTtw4a6wRbl1fJjNQ0" alt="" />
+							</span>
+							<header class="major">
+								<h1>Quick Tips for your desk</h1>
+							</header>
+							<div class="content">
+								<p>Welcome to Dish! below are a couple highlights about your desk and quick help tips and tricks.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>Desk Setups.</h2>
+									</header>
+									<p>Each desk is outfitted with a USB-C docking station or monitor,  USB Camera or built in on docking monitors, wired USB keyboard/ mouse, and two 27” 1440p monitors.
+									</b>
+									<p></p>Docking monitor/stations that use a USB-C Cable.
+											This will charge and allow video to work on the laptop
+											</p>
+									</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a href="generic.html" class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1Vbmi5VaWHEvyMBvkMjN5rxeDZX0y7rdv" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Mac users</h3>
+											</header>
+											<p>We have some great mac solutions available. Place a ticket or visit our Tech-HQ if you need any help or have questions.</p>
+											
+										</div>
+									</div>
+								</section>
+								</section>
+
+								<section id="three">
+									<div class="inner">
+										<header class="major">
+											<h2>Accessories not working?</h2>
+										</header>
+										<p>	A small amount of users will sometimes not have the usb keyboard/mouse working, just open the thunderbolt app, and allow the dock to fully connect. </p>
+											<p>Click below for more information.</p>
+										</p>
+										
+										<ul class="actions">
+											<li><?var url = getScriptUrl();?><a href='<?=url?>?page=my6' class="button">Learn more</a></li>
+										</ul>
+									</div>
+								</section>
+
+								<section id="four">
+										<div class="inner">
+											<header class="major">
+												<h3>No power or video with your dock?</h3>
+											</header>
+											<p>1. Make sure all connections are firmly in place.</p>
+											<p>2. Also make sure power is connected to the power port on the dock, one of the desk locks fits the power perfectly.</p>
+											<P>3. Restart your computer, you would be surprised how many things get fixed by this step.</P>
+										</div>
+									</div>
+								</section>
+							
+
+						</section>
+
+					</div>
+
+
+
+				<!-- Footer -->
+				<footer id="footer">
+					<div class="inner">
+
+						<ul class="copyright">
+							<li>&copy; Designed by:</li><li>Steven Pooley - steven.pooley@dish.com</li>
+              <li>&copy; Created by:</li><li>Jonte "Jon" Wilson - jonte.wilson@dish.com</li>
+						</ul>
+					</div>
+				</footer>
+
+			</div>
+
+			<script>
+				var timer = setTimeout(function() {
+					window.location='1.index.html'
+				}, 180000);
+			</script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
