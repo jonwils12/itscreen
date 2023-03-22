@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+  <head>
+   <!-- docstore.mik.ua/orelly/webprog/jscript/ch12_02.htm -->
+   <meta http-eqiuv="Content-Script-Type" content="text/javascript">
+    <base target="_top">
+    <?!=include('css'); ?>
+    <?!=include('noscriptcss'); ?>
+    <?!=include('jss'); ?>
+   <!-- <script>
+    return HtmlService.createTemplateFromFile('my3').evaluate();
+    Logger.log("Runs")
+    </script>-->
+  </head>
+  <body>
+   
+    <!-- <h1>Page 1</h1>
+    <?var url = getScriptUrl();?><a href='<?=url?>?page=my2'>Link to page2</a>-->
+      <!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+					<!--	<a href="1.index.html" class="logo"><strong>Riverfront</strong> <span>IT</span></a>-->
+            <?var url = getScriptUrl();?><a href='<?=url?>?page=my23'><strong>Riverfront</strong> <span>IT</span></a>
+            
+					<!--	<nav>
+							<a href="#menu">Menu</a>
+						</nav>-->
+					</header>
+
+				<!-- Menu -->
+				<!-- This is the clickable menu to the top right, I include this code on every page except the banners-->
+			<!--	<nav id="menu">
+					<ul class="links">
+						<li><a href="1.index.html">Home</a></li>
+						<li><a href="2.Printing.html">Printing</a></li>
+						<li><a href="2.Password_resets.html">Passwords</a></li>
+						<li><a href="2.Tbar.html">T-Bar</a></li>
+						<li><a href="2.Desk.setup.html">Desk Setups</a></li>
+						<li><a href="2.Thunderbolt.html">Thunderbolt</a></li>
+					</ul>
+
+				</nav>-->
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+
+							<span class="image">
+               <!-- <img src="https://drive.google.com/uc?export=view&id=1f9Wo_TGx5v3m3JA84HaxQ2_lUuAYnxG0" alt=""/>
+							<!--	<img src="Dish.images/photo-1547586696-ea22b4d4235dcopy.png" alt="" />-->
+							</span>
+
+							<header class="major">
+								<h1>Welcome to our self-service desk!</h1>
+							</header>
+							<div class="content">
+								<p>Feel free to search through options below, we are constantly adding new articles.</p>
+									
+							
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+				<!-- if you wish to have extra pages for this section you will need to add to the color element in the ccs main file-->
+					<div id="main">
+
+					<!--Follow-you printing-->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="Gifs/5658551241_8852d44b38_o.gif" alt="" />
+									</span>
+									<header class="major">
+										<h2><?var url = getScriptUrl();?><a href='<?=url?>?page=my2'>Follow-You Printing</a></h2>
+										<p>Learn the ins and outs of Cloud Printing.</p>
+									</header>
+								</article>
+
+							<!--Password resets-->
+								<article>
+									<span class="image">
+										<img src= "Gifs/5698521247_6da5d66288_o.gif" alt="" />
+									</span>
+
+									<header class="major">
+										<h2><?var url = getScriptUrl();?><a href='<?=url?>?page=my3'>Resetting Passwords</a></h2>
+										<p>Making updating passwords easy.</p>
+									</header>
+								</article>
+
+							<!-- T-bar -->
+								<article>
+									<span class="image">
+										<img src= "Dish.images/photo-1610168388209-0cf5b3333823c33c.jpg" alt="" />
+									</span>
+
+									<header class="major">
+										<h2><?var url = getScriptUrl();?><a href='<?=url?>?page=my4'>T-bar</a></h2>
+										<p>A easier way to request things.</p>
+									</header>
+								</article>
+
+							<!-- Desk setups-->
+								<article>
+									<span class="image">
+										<img src="images/CRT-Displays-gear-patrol.jpeg" alt="" />
+									</span>
+									<header class="major">
+										<h2><?var url = getScriptUrl();?><a href='<?=url?>?page=my5' class="logo">Desk Setup info</a></h2>
+										<p>Quick overview of how desks are setup</p>
+									</header>
+								</article>
+
+								<article>
+									<span class="image">
+										<img src="images/photo-1610034449610-a4fa929867f2.jpeg" alt="" />
+									</span>
+									<header class="major">
+										<h2><?var url = getScriptUrl();?><a href='<?=url?>?page=my6' class="logo">Thunderbolt</a></h2>
+										<p>Faster and better than ever before.</p>
+									</header>
+								</article>
+
+							<!--Working remote?-->
+								<article>
+									<span class="image">
+										<img src="images/gettyimages-1126400322.jpeg" alt="" />
+									</span>
+									<header class="major">
+										<h2><?var url = getScriptUrl();?><a href='<?=url?>?page=my7' class="logo">Working remotely?</a></h2>
+										<p>Top 10 things to check before working remotely.</p>
+									</header>
+								</article>
+								
+							<!--Check list for a new hire-->
+								<article>
+									<span class="image">
+										<img src="images/Designers-Table-2.gif" alt="" />
+									</span>
+								<header class="major">
+									<h2><?var url = getScriptUrl();?><a href='<?=url?>?page=my8' class="logo">Have a new hire?</a></h2>
+									<p>Go through our preferred checklist to ensure your new hire is ready!</p>
+								</header>
+							</article>
+
+							<article>
+								<span class="image">
+									<img src="Gifs/iPhone.gif" alt="" />
+							</section>
+
+					</div>
+					<footer id="footer">
+						<div class="inner">
+
+							<ul class="copyright">
+								<li>&copy; Designed by:</li><li>Steven Pooley - steven.pooley@dish.com</li>
+                <li>&copy; Created by:</li><li>Jonte "Jon" Wilson - jonte.wilson@dish.com</li>
+							</ul>
+						</div>
+					</footer>
+			</div>
+
+			
+
+
+
+
+
+  </body>
+  <br>
+  <script language="JavaScript">
+   
+  </script>
+  <br>
+</html>
+<!--https://drive.google.com/uc?export=view&id=1lpfi3ZQjU3X3bTMxf7Rrkn-6E-TQuTU1-->
