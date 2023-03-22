@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Landing - Forty by HTML5 UP</title>
+		<meta charset="utf-8" />
+    <base target="_top">
+    <?!=include('css'); ?>
+    <?!=include('noscriptcss'); ?>
+    <?!=include('jss'); ?>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>-->
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header">
+					<?var url = getScriptUrl();?><a href='<?=url?>?page=my1' class="logo"><strong>T-Bar</strong> <span>How to request things.</span></a>
+					<!--	<nav>
+							<a href="#menu">Menu</a>
+						</nav> -->
+					</header>
+
+				<!-- Menu 
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="1.index.html">Home</a></li>
+						<li><a href="2.Printing.html">Printing</a></li>
+						<li><a href="2.Password_resets.html">Passwords</a></li>
+						<li><a href="2.Tbar.html">T-Bar</a></li>
+						<li><a href="2.Desk.setup.html">Desk Setups</a></li>
+						<li><a href="2.Thunderbolt.html">Thunderbolt</a></li>
+
+					</ul>
+
+				</nav>-->
+
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="https://drive.google.com/uc?export=view&id=1p_IBZuwy_CU5n4tfB29o-aEF7gP9AopV" alt="" />
+							</span>
+							<header class="major">
+								<h1>Quick tips for the T-Bar site.</h1>
+							</header>
+							<div class="content">
+								<p>Best place to request access to services and equipment.<br />
+									</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<header class="major">
+										<h2>How to access the website.</h2>
+									</header>
+									<p>You can access it from the link below directly, or follow the steps below to access it from the Okta website.</p>
+									<p>https://dish.service-now.com/ess/</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1H2lhbXO5hjdF_2YrN4N1nmYEzL_wY_KK" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>How to Visit T-bar through Okta</h3>
+											</header>
+											<p>1. Visit "dish.okta.com" <br />
+												2. choose the "T-Bar Online" tile. </p>
+
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1uGbz5zLmHey3nVFqaI2Liq8zdZNn12pz" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Request software</h3>
+											</header>
+											<p>We have a number of options available for approved software, just note non-standard software will need to pass through the Security team first.
+											</b> Software that requires licenses will take extra time to be processed through the Billing department.
+											</p>
+
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1SZi7pW3gegkvOAIVcA5pJ4qDVmKp0-07" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Local Admin account (.pc)</h3>
+											</header>
+											<p>Do a search for "Local Admin". <br />
+												Make sure to read the EULA's carefully.</p>
+
+										</div>
+									</div>
+								</section>
+							</section>
+
+							<script>
+								var timer = setTimeout(function() {
+									window.location='my1'
+								}, 180000);
+							</script>
+
+					<footer id="footer">
+						<div class="inner">
+
+							<ul class="copyright">
+								<li>&copy; Designed by:</li><li>Steven Pooley - steven.pooley@dish.com</li>
+                <li>&copy; Created by:</li><li>Jonte "Jon" Wilson - jonte.wilson@dish.com</li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
