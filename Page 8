@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<!--Posters provided by Caroline Ragan-->
+<html>
+	<head>
+		<title>Riverfront IT</title>
+		<meta http-eqiuv="Content-Script-Type" content="text/javascript">
+    <base target="_top">
+    <?!=include('css'); ?>
+    <?!=include('noscriptcss'); ?>
+    <?!=include('jss'); ?>
+		
+	</head>
+	<body class="is-preload">
+
+         
+			 <?var url = getScriptUrl();?><a href='<?=url?>?page=my1' class="gif">
+<img id="bg" src="https://drive.google.com/uc?export=view&id=18_itzaVnOdqwBxkZg2Z7RzPCqTIzJ6pm" alt="" style="width: 1080px;height:1920px" />
+
+</a>
+ </body>
+<footer id="footer">
+	<div class="inner">
+
+		<ul class="copyright">
+			<li>&copy; Posters provided by</li><li> Caroline Ragan</li>
+		</ul>
+	</div>
+
+
+<script>
+    var timer = setTimeout(function(url){
+       <?=url?>?page=my1, 1800);  }
+
+</script>
+                      
+            </div>
+</footer>   
+</html>
