@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Riverfront IT</title>
+		<meta charset="utf-8" />
+    <base target="_top">
+    <?!=include('css'); ?>
+    <?!=include('noscriptcss'); ?>
+    <?!=include('jss'); ?>
+		<!--<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>-->
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header">
+						<?var url = getScriptUrl();?><a href='<?=url?>?page=my1' class="logo"><strong>Thunderbolt</strong> <span>-How to's</span></a>
+					<!--	<nav>
+							<a href="#menu">Menu</a>
+						</nav>-->
+					</header>
+
+				<!-- Menu 
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="1.index.html">Home</a></li>
+						<li><a href="2.Printing.html">Printing</a></li>
+						<li><a href="2.Password_resets.html">Passwords</a></li>
+						<li><a href="2.Tbar.html">T-Bar</a></li>
+						<li><a href="2.Desk.setup.html">Desk Setups</a></li>
+						<li><a href="2.Thunderbolt.html">Thunderbolt</a></li>
+
+					</ul>
+
+				</nav>-->
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="https://drive.google.com/uc?export=view&id=1oFS0ia3Kcg25OArv2zMsl3VwAbLsM1pW" alt="" />
+							</span>
+							<header class="major">
+								<h1>Thunderbolt Setup</h1>
+							</header>
+							<div class="content">
+								<p>Sometimes our thunderbolt docks need a couple things done to ensure compatability.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+									<p>In some cases you might notice when connecting to the dock the first time your accessories wont work. Or in some rare cases your camera has some jitter. dont worry though we have some easy fixes for you.</p>
+								</div>
+							</section>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<?var url = getScriptUrl();?><a href='<?=url?>?page=my1' class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1wghzCdBSLX3M2qtWTPcVFMGs7_A447im" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>1. Do you have the app?</h3>
+											</header>
+											<p>Do a Windows search for "Thunderbolt control center".
+											</b>
+												Or if its not showing then open our "software center" and look for the "Thunderbolt app"</p>
+
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1a2cjT1R4QdzV5a71sUCBQ7B_iKwbNirb" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Allowing USB devices</h3>
+											</header>
+											<p>1. Open the "Thunderbolt app".
+											</br>
+												2. Click the device from the list.
+											</br>
+												3. Down below choose "Always Connect"
+											</br>
+												4. Then choose "Confirm"
+											
+											</p>
+
+										</div>
+									</div>
+								</section>
+								<section>
+									<?var url = getScriptUrl();?><a href='<?=url?>?page=my1' class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1It14YvJb0xcmfbKPrN8-dbAqp5W32mU3" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h3>Distorted webcam?</h3>
+											</header>
+											<p>In some small cases we've seen people have trouble with distorted webcam feed when the cam is connected to the dock. just let our IT know and we will fix this for you.</p>
+
+										</div>
+									</div>
+								</section>
+							</section>
+
+					</div>
+
+			</div>
+
+			
+			<footer id="footer">
+				<div class="inner">
+
+					<ul class="copyright">
+						<li>&copy; Designed by:</li><li>Steven Pooley - steven.pooley@dish.com</li>
+            <li>&copy; Created by:</li><li>Jonte "Jon" Wilson - jonte.wilson@dish.com</li>
+					</ul>
+				</div>
+			</footer>
+	</div>
+
+			<script>
+				var timer = setTimeout(function() {
+					window.location='1.index.html'
+				}, 180000);
+			</script>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
