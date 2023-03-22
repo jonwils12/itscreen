@@ -1,0 +1,170 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		<title>Printing </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<base target="_top">
+    <?!=include('css'); ?>
+    <?!=include('noscriptcss'); ?>
+    <?!=include('jss'); ?>
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "style" class below should match that of the banner element. -->
+					<header id="header">
+            <?var url = getScriptUrl();?><a href='<?=url?>?page=my1' class="logo"><strong>Printing</strong> <span>-Follow-You</span></a></h2>
+						<!--<a href="1.index.html" class="logo"><strong>Printing</strong> <span>-Follow-You</span></a>
+						<nav>
+							<a href="#menu">Menu</a>
+						</nav>-->
+					</header>
+
+
+				<!-- Menu 
+				<nav id="menu">
+					<ul class="links">
+						<li><a href="1.index.html">Home</a></li>
+						<li><a href="2.Printing.html">Printing</a></li>
+						<li><a href="2.Password_resets.html">Passwords</a></li>
+						<li><a href="2.Tbar.html">T-Bar</a></li>
+						<li><a href="2.Desk.setup.html">Desk Setups</a></li>
+						<li><a href="2.Thunderbolt.html">Thunderbolt</a></li>
+
+					</ul>
+
+				</nav>-->
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/photo-1503945438517-f65904a52ce6.jpeg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Follow-You Printing</h1>
+							</header>
+							<div class="major">
+								<h5>Taking Printing to the clouds</h5>
+
+								<p>We use a system called “FOLLOW-YOU” printing, when you choose follow-you as your printer, it will send the documents to the cloud so you can access the print job anywhere at Dish, using what's called “secure printing”</p>
+							</div>
+						</div>
+					</section>
+
+
+				<!-- Main -->
+					<div id="main">
+
+						<div class="inner">
+							<header class="major">
+									<h3>To setup the Printer.</h3>
+							</header>
+						</div>
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+									<a class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1EofXwoU314MOiJRqROnmmYe6HTKcmnZx" alt="" data-position="center center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h5>Steps for PC</h5>
+											</header>
+											<p>1. On pc do a search for "\\chy-eqprintp1" and press return.
+												<br />
+											2. Then double click the option "follow-you" with the new window that opens.</p>
+
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1sixbLftBC_1omN0CtwWdSDMMgOgcNAVp" alt="" data-position="top center" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h5>Steps for Mac</h5>
+											</header>
+											<p>1. On the Mac open the app called "intelligent hub"
+													<br />
+												2. Then install "Printer-Setup"</p>
+										</div>
+									</div>
+								</section>
+								<section>
+									<a class="image">
+										<img src="https://drive.google.com/uc?export=view&id=1Gib0rfkgIW3frAumkBxu4W4cl2d2EOs0" alt="" data-position="25% 25%" />
+									</a>
+									<div class="content">
+										<div class="inner">
+											<header class="major">
+												<h5>Sync your badge</h5>
+											</header>
+											<p>1. Enter your nt/computer user name and password DO NOT press login.
+												<br />
+												2. Place your badge on the scanner to the right
+												<br />
+												3. It will login and now you are synced
+												<br />
+												4. Now when you use the printer it will automatically login using your badge.
+												<p>
+												If it doesnt work, log into the printer to confirm everything works. Then log out and tap your badge first before entering your credentials.</p>
+												</p>
+
+										</div>
+									</div>
+								</section>
+								
+							</section>
+							</div>
+
+							<div class="content">
+								<div class="inner">
+									<p>For Double sided and stapling instructions click the buttons below.</p>
+									</div>
+							<ul class="actions stacked">
+								
+								<li><a href="3.Print.2sided.pc.html" class="button primary fit">Steps for PC</a></li>
+								<li><a href="3.Print.2sided.mac.html" class="button fit">Steps for Mac</a></li>
+							</ul>
+							</div>
+					</div>
+					<footer id="footer">
+						<div class="inner">
+
+							<ul class="copyright">
+								<li>&copy; Designed by:</li><li>Steven Pooley - steven.pooley@dish.com</li>
+                <li>&copy; Created by:</li><li>Jonte "Jon" Wilson - jonte.wilson@dish.com</li>
+							</ul>
+						</div>
+					</footer>
+
+					<script>
+						var timer = setTimeout(function() {
+							window.location='1.index.html'
+						}, 180000);
+					</script>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
